@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.OnOff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  color: green;
+}
+
+ul {
+  position: relative;
+  left: 30px;
+}
+
+.reload {
+  padding: 10px;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #666;
+  color: white;
+  border-radius: 20px;
+}
